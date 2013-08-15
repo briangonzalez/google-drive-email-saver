@@ -13,6 +13,10 @@ g = GoogleDriveEmailSaver.new('me@gmail.com', 'passwd123456', '8675309abcdef')
 g.save_email('person.who@justsignedup.com')
 ```
 
+### Demo
+
+![demo-concealed](https://f.cloud.github.com/assets/659829/969570/d3b7070a-05bf-11e3-9c5e-c6655656c932.gif)
+
 ### How to get spreadsheet key
 You'll find the spreadsheet key as a query param in the url of the spreadsheet on Google Drive. It's behind the `?key=` param.  
 
