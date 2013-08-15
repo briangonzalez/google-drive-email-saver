@@ -1,7 +1,7 @@
 
 require "google_drive"
 
-class GoogleDocsEmailSaver
+class GoogleDriveEmailSaver
 
   def initialize(email, password, key)
     @key = key

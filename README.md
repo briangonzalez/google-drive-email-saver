@@ -9,7 +9,7 @@ Quickly and easily save emails to a column in Google Drive spreadsheet.
 require './google-drive-email-saver.rb'
 
 # where 8675309abcdef is the spreadsheet key
-g = GoogleDocsEmailSaver.new('me@gmail.com', 'passwd123456', '8675309abcdef') 
+g = GoogleDriveEmailSaver.new('me@gmail.com', 'passwd123456', '8675309abcdef') 
 g.save_email('person.who@justsignedup.com')
 ```
 
